@@ -1,0 +1,114 @@
+/* External CSS */
+body{
+  font-family:italic;
+  /*margin:0 auto;  New */
+}
+a{
+  text-decoration:none;
+}
+/* Change #click_me to look like a button*/
+#click_me{
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+#click_me:hover{
+  color: red !important;
+}
+
+/* Change the color of the text of #click_me when you hover over it to white */
+
+
+/* CSS Specificity 
+   inline > id > class > element
+*/
+
+/* Start */
+/* Make #banner stand out */
+nav {
+  padding: 5px;
+  background-color:rgb(10,80,32);
+}
+
+#yap{
+  background-color:darkred;
+  color:white;
+  text-align: center;
+  padding:10px;
+  font-size:15px;
+
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+nav{
+	padding:5px
+}
+nav a{
+	font-size:20px;
+	color:white;
+	margin: 0 10px 0 10px;
+	display:inline-block;
+	width:20%;
+	text-align:center;
+}
+.container{
+	display:flex;
+
+}
+#g1{
+	flex:1;
+}
+p{
+	font-size:20px;
+}
+
+h1{
+	font-family:Italic;
+}
+
+#g2 {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+#g2:hover{
+	filter:opacity(80%);
+}
+
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+}
+
+#pisa{
+	text-align:justify;
+	font-family:Arial;
+	
+}
+nav a:hover{
+	color:red;
+}
+
+footer {
+  text-align: center;
+  height:25px;
+  background-color: rgb(10,80,32);
+  color: rgb(237, 224, 166);
+}
+
+#yap2{
+  background-color:darkred;
+  color:white;
+  text-align: center;
+  padding:10px;
+  font-size:15px;
+
+}
